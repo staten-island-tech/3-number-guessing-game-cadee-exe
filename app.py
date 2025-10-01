@@ -27,6 +27,18 @@ while color != "stop":
                     
 print("Thanks for answering!")
 
+correct = 2
+import random
+random_int = random.randint(1, 10)
+print(f"random integer: {random_int} ")
+
+guess_history = []
+while correct == 2:
+     guess=(int(input)())
+
+
+     
+
 
 
 
