@@ -34,7 +34,20 @@ print(f"random integer: {random_int} ")
 
 guess_history = []
 while correct == 2:
-     guess=(int(input)())
+     guess=(int(input("Guess a number from 1-10")))
+     if guess == random_int:
+          print("Correct")
+
+
+
+
+
+
+
+
+
+
+
 
 
      
