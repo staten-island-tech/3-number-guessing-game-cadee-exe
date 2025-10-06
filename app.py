@@ -37,6 +37,7 @@ while correct == 2:
      guess=(int(input("Guess a number from 1-10")))
      if guess == random_int:
           print("Correct")
+          
 
 
 
