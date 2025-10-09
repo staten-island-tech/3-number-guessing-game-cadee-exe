@@ -30,13 +30,18 @@ print("Thanks for answering!") """
 correct = 2
 import random
 random_int = random.randint(1, 10)
-print(f"random integer: {random_int} ")
-
+print(f"random integer: {random_int} ") 
 guess_history = []
 while correct == 2:
-     guess=(int(input("Guess a number from 1-10")))
+     guess=(int(input("Guess a number from 1-10:")))
      if guess == random_int:
           print("Correct")
+if guess >= correct:
+    print(f"{"too high, lower"}")
+    """ elif: """
+print(f"{"Too low, higher"}")
+print("You guessed"[guess_history])
+
           
 
 
