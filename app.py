@@ -15,17 +15,17 @@ while order != "done":
 
 print("Thanks for your order!") """
 
-count = 1
+""" count = 1
 while count   <= 10:
     print("This is loop number", count)
     count = count + 1
         
-""" color = """
+color =
 
 while color != "stop":
       color = input("What is your favorite color? (type 'stop' to finish): ")
                     
-print("Thanks for answering!")
+print("Thanks for answering!") """
 
 correct = 2
 import random
@@ -38,6 +38,7 @@ while correct == 2:
      if guess == random_int:
           print("Correct")
           
+
 
 
 
